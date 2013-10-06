@@ -10,7 +10,7 @@ git_bundles = [
 require 'fileutils'
 require 'open-uri'
 
-vim_dir = File.expand_path(File.dirname(File.dirname(__FILE__)))
+vim_dir = File.dirname(__FILE__)
 bundles_dir = File.join(vim_dir, 'bundle')
 
 FileUtils.mkdir(bundles_dir) unless File.directory?(bundles_dir)
