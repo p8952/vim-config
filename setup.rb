@@ -13,6 +13,7 @@ require 'open-uri'
 vim_dir = File.expand_path(File.dirname(File.dirname(__FILE__)))
 bundles_dir = File.join(vim_dir, 'bundle')
 
+FileUtils.mkdir(bundles_dir) unless File.directory?(bundles_dir)
 FileUtils.cd(bundles_dir)
 Dir["*"].each { |d| FileUtils.rm_rf d }
 
