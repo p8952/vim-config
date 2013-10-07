@@ -10,7 +10,7 @@ syntax enable
 colorscheme wombat256     
 set colorcolumn=80        
 set backspace=indent,eol,start
-set tabstop=2 shiftwidth=2 expandtab
+set tabstop=4 shiftwidth=4
 set statusline=%t[%{strlen(&fenc)?&fenc:'none'}]%=Col:%c,Line:%l
 
 "" Searching
