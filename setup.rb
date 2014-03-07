@@ -19,9 +19,9 @@ FileUtils.cd(bundles_dir)
 Dir["*"].each { |d| FileUtils.rm_rf d }
 
 git_bundles.each do |url|
-  dir = url.split('/').last.sub(/\.git$/, '')
-  `git clone #{url} #{dir}`
-  FileUtils.rm_rf(File.join(dir, ".git"))
+	dir = url.split('/').last.sub(/\.git$/, '')
+	`git clone #{url} #{dir}`
+	FileUtils.rm_rf(File.join(dir, ".git"))
 end
 
 vimrc = File.expand_path('~/.vimrc')
