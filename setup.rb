@@ -6,7 +6,6 @@ git_bundles = [
 	'git://github.com/majutsushi/tagbar.git',
 	'git://github.com/p8952/vim-colors-wombat.git',
 	'git://github.com/scrooloose/nerdtree.git',
-	'git://github.com/vim-ruby/vim-ruby.git',
 ]
 
 require 'fileutils'
