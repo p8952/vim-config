@@ -1,3 +1,5 @@
+Moved To => https://github.com/p8952/dotfiles
+
 Vim Configuration &amp; Plugins
 
     rm -rfv ~/.vim*
